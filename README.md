@@ -17,4 +17,15 @@ This is a Spring Boot based Timesheet Management System that allows users to log
 - Maven
 
 ## Architecture
-Controller → Service → Repository → Database
+
+This application follows a 3-tier architecture:
+
+Client (Postman / Browser)
+        ↓
+Controller Layer
+        ↓
+Service Layer
+        ↓
+Repository Layer
+        ↓
+Database (H2)
